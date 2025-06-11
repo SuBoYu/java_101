@@ -14,6 +14,6 @@ public class Conditional {
             System.out.println("Fizz");
         } else {
             System.out.println(num);
-        }ls
+        }
     }
 }
