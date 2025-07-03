@@ -11,7 +11,7 @@ public class Variables {
         System.out.println("Int: " + wholeNumber);
         System.out.println("Float: " + floatingPoint);
         System.out.println("Bool: " + trueOrFalse);
-        
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Write a value: ");
@@ -19,5 +19,7 @@ public class Variables {
         boolean value = Boolean.valueOf(scanner.nextLine());
 
         System.out.println("You wrote: " + value);
+
+        scanner.close();
     }
 }

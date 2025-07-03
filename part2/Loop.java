@@ -16,5 +16,7 @@ public class Loop {
             numbersRead = numbersRead + 1;
         }
         System.out.println("The sum of the num is: " + sum);
+
+        reader.close();
     }
 }

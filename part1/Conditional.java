@@ -15,5 +15,6 @@ public class Conditional {
         } else {
             System.out.println(num);
         }
+        reader.close();
     }
 }
